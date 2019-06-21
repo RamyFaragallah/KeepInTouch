@@ -9,6 +9,8 @@ login and sign up
 
 ![3](https://user-images.githubusercontent.com/49294267/59931735-efe61b80-9445-11e9-8356-5f296a524e15.PNG)
 ![3](https://user-images.githubusercontent.com/49294267/59930280-e909d980-9442-11e9-9c9d-a0199b6a1b89.PNG)
+![8](https://user-images.githubusercontent.com/49294267/59932743-26249a80-9448-11e9-969e-a9d09808c46b.PNG)
+
 ![5](https://user-images.githubusercontent.com/49294267/59930296-f1faab00-9442-11e9-8b99-69e7c4778711.PNG)
 ![6](https://user-images.githubusercontent.com/49294267/59930348-0a6ac580-9443-11e9-8145-bfd2ba029ff5.PNG)
 ![7](https://user-images.githubusercontent.com/49294267/59930357-0fc81000-9443-11e9-9cf2-4cf07ff2f23c.PNG)
