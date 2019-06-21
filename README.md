@@ -13,8 +13,10 @@ login and sign up
 
 ![5](https://user-images.githubusercontent.com/49294267/59930296-f1faab00-9442-11e9-8b99-69e7c4778711.PNG)
 ![6](https://user-images.githubusercontent.com/49294267/59930348-0a6ac580-9443-11e9-8145-bfd2ba029ff5.PNG)
+
 ![7](https://user-images.githubusercontent.com/49294267/59930357-0fc81000-9443-11e9-9cf2-4cf07ff2f23c.PNG)
 ![8](https://user-images.githubusercontent.com/49294267/59930386-1787b480-9443-11e9-9df4-fc7be68eabb8.PNG)
+
 ![7](https://user-images.githubusercontent.com/49294267/59932316-34be8200-9447-11e9-86c7-6659edaf0945.PNG)
 
 
