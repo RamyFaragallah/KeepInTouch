@@ -5,7 +5,6 @@
 login screens
 
 
-![1](https://user-images.githubusercontent.com/49294267/59930262-dee7db00-9442-11e9-92d2-47929cef3537.PNG)
 
 ![2](https://user-images.githubusercontent.com/49294267/59930271-e27b6200-9442-11e9-8cbf-b726317fa95d.PNG)
 
