@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/req_profile_layout"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/req_name_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/req_profile_layout"
+        android:text="Display Name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/req_approve_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/req_name_layout"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/req_profile_layout"
+        android:background="#168B04"
+        android:padding="5dp"
+        android:text="Approve"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/req_Reject_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/req_name_layout"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/req_approve_btn"
+        android:background="#D30404"
+        android:padding="5dp"
+        android:text="Reject"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+</RelativeLayout>

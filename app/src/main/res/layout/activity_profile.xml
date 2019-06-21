@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgpro"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/profile"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/txtproname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgpro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Keep on touch user"
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtprostat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtproname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Hey ,i'm using keep in touch app"
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnsendrequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txtprostat"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="80dp"
+        android:background="@color/fui_bgPhone"
+        android:text="Send friend request"
+        android:textAllCaps="false"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <Button
+        android:id="@+id/btnreject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btnsendrequest"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="80dp"
+        android:background="@color/fui_bgPhone"
+        android:gravity="center"
+        android:text="Reject friend request "
+        android:textAllCaps="false"
+        android:visibility="visible" />
+
+</RelativeLayout>

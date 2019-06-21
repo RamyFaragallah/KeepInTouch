@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccoutSetting"
+    android:background="@color/plettle">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/imgpic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="89dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/txtprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgpic"
+        android:layout_alignTop="@id/imgpic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="177dp"
+        android:gravity="center"
+        android:text="Desplay Name"
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtstat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtprofile"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="39dp"
+        android:gravity="center"
+        android:text="Hey , I'm using Keep In Touch Application"
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnchangepic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txtstat"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="80dp"
+        android:background="@color/colorPrimary"
+        android:text="Change profile Picture"
+        android:textAllCaps="false"
+        android:textColor="@color/browser_actions_bg_grey" />
+
+    <Button
+        android:id="@+id/btnchgstt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btnchangepic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="80dp"
+        android:background="@color/colorAccent"
+        android:text="Change Status"
+        android:textAllCaps="false"
+        android:textColor="@color/browser_actions_bg_grey" />
+
+</RelativeLayout>

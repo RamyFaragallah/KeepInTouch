@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "219520499144",
+    "firebase_url": "https://keepintouch-7a3c5.firebaseio.com",
+    "project_id": "keepintouch-7a3c5",
+    "storage_bucket": "keepintouch-7a3c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219520499144:android:954d7e9f14922ee9",
+        "android_client_info": {
+          "package_name": "com.example.keepintouch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219520499144-li40nnvr10683lpvv4oof6gpip1eth6b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.keepintouch",
+            "certificate_hash": "60a37d10959f9fc5f1c51d30acd221f57d40b287"
+          }
+        },
+        {
+          "client_id": "219520499144-krb0r24crssnbuqf6567q1qivcnbam8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5_Xscbuen54wWg87IOmx8wX2Y1PjNim4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219520499144-krb0r24crssnbuqf6567q1qivcnbam8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
